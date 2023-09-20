@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/customer", customerRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello Morten");
+  res.send("Hello world");
 });
 
 app.listen(3000, () => {
